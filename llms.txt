@@ -23,3 +23,9 @@
 - [Privacy Policy](https://getoneviewapp.com/privacy.html): what data OneView reads and where it stays
 - [Terms of Use](https://getoneviewapp.com/terms.html): terms, including Pro subscriptions
 - [Refund Policy](https://getoneviewapp.com/refund.html): cancelling and refunds through the App Store or Google Play
+- [Legal Notice](https://getoneviewapp.com/legal.html): publisher PolytoneLabs, hosting (GitHub Pages), domain (OVHcloud)
+
+## Publisher
+
+- PolytoneLabs, independent developer: https://gaelbotton.dev
+- Contact: polytonelabs2642@gmail.com

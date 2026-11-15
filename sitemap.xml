@@ -29,6 +29,12 @@
     <priority>0.3</priority>
   </url>
   <url>
+    <loc>https://getoneviewapp.com/legal.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>yearly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  <url>
     <loc>https://getoneviewapp.com/llms.txt</loc>
     <lastmod>2026-11-15</lastmod>
     <changefreq>monthly</changefreq>
