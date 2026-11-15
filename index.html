@@ -40,12 +40,16 @@ box-shadow:0 10px 30px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.06)}
 
 /* Hero */
 .hero{display:grid;grid-template-columns:1.05fr .95fr;gap:24px;align-items:center;padding:72px 0 56px}
-.eyebrow{display:inline-flex;align-items:center;gap:8px;padding:7px 12px;border-radius:999px;background:var(--blueSoft);color:var(--blue);font-weight:700;font-size:13px;margin-bottom:20px}
+.kicker{margin:0 0 18px;color:var(--blue);font-weight:700;font-size:15px}
 h1{font-size:clamp(40px,6vw,64px);line-height:1.04;letter-spacing:-1.8px;margin:0 0 20px;font-weight:800}
 h1 span{color:var(--blue)}
 .lead{font-size:18px;line-height:1.6;color:var(--sub);margin:0 0 28px;max-width:520px}
-.chips{display:flex;flex-wrap:wrap;gap:8px}
-.chip{display:flex;align-items:center;gap:8px;padding:9px 13px;border-radius:999px;background:var(--card);border:1px solid var(--line);font-weight:600;font-size:14px}
+.works{display:flex;flex-wrap:wrap;align-items:center;gap:14px 28px}
+.logos{display:flex;flex-wrap:wrap;align-items:center;gap:12px 22px}
+.works .logos + .logos{padding-left:28px;border-left:1px solid var(--line)}
+.logo{display:inline-flex;align-items:center;gap:9px;font-weight:700;font-size:15px;color:var(--text)}
+.logo svg{flex:none}
+@media (max-width:560px){.works .logos + .logos{padding-left:0;border-left:0}}
 .dot{width:8px;height:8px;border-radius:50%}
 .phones{position:relative;height:600px;display:grid;place-items:center}
 .phone{position:absolute;width:256px;aspect-ratio:402/874;border-radius:46px;padding:9px;background:linear-gradient(145deg,#3a4252,#10141d 40%,#262c38);
@@ -75,7 +79,6 @@ h2 span{color:var(--blue)}
 .feat .ic{width:42px;height:42px;border-radius:13px;background:var(--blueSoft);color:var(--blue);display:grid;place-items:center}
 .feat h3{margin:16px 0 6px;font-size:16.5px;font-weight:700;letter-spacing:-.2px}
 .feat p{margin:0;color:var(--sub);line-height:1.55;font-size:14.5px}
-.feat .pro{position:absolute;top:18px;right:18px;font-size:11px;font-weight:800;letter-spacing:.4px;color:var(--blue);background:var(--blueSoft);padding:4px 8px;border-radius:999px}
 .feat.wide{grid-column:span 2;display:grid;grid-template-columns:1fr 1fr;gap:20px;align-items:center}
 .platforms{display:grid;grid-template-columns:repeat(3,1fr);gap:10px}
 .plat{min-width:0;height:150px;border-radius:18px;padding:14px;display:flex;flex-direction:column;justify-content:flex-end;font-weight:700;font-size:14px;border:1px solid var(--line)}
@@ -100,8 +103,8 @@ h2 span{color:var(--blue)}
 .plans{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0 16px}
 .plan{padding:26px;display:flex;flex-direction:column;gap:6px}
 .plan.pro{border-color:rgba(77,141,255,.5);background:linear-gradient(180deg,rgba(47,107,255,.12),rgba(47,107,255,0) 45%),var(--card);box-shadow:0 0 60px rgba(47,107,255,.15)}
-.tag{align-self:flex-start;padding:5px 11px;border-radius:999px;background:var(--blueSoft);font-size:12px;font-weight:800;color:var(--blue);letter-spacing:.3px}
-.plan h3{margin:10px 0 0;font-size:20px;font-weight:800}
+.trial{margin:2px 0 0;font-size:14.5px;font-weight:700;color:var(--blue)}
+.plan h3{margin:0;font-size:20px;font-weight:800}
 .price{font-size:46px;font-weight:800;letter-spacing:-2px;margin:2px 0 0}
 .price small{font-size:15px;font-weight:600;color:var(--sub);letter-spacing:0}
 .plan ul{list-style:none;padding:0;margin:16px 0 0;display:grid;gap:11px}
@@ -174,17 +177,19 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
 <main class="wrap">
   <section class="hero">
     <div>
-      <span class="eyebrow">
-        <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3l2.4 5.6L20 11l-5.6 2.4L12 19l-2.4-5.6L4 11l5.6-2.4z"/></svg>
-        Free to start · Try the demo, no account needed
-      </span>
+      <p class="kicker">Free to download. Pro is free for your first 7 days.</p>
       <h1>All your creator stats, <span>in one app.</span></h1>
-      <p class="lead">OneView brings the views, likes, comments and followers of your YouTube, TikTok and Instagram accounts together. One chart for everything, a goal for every account, your best time to post, every comment in one inbox, and one button to publish a video to all your accounts at once.</p>
-      <div class="chips">
-        <span class="chip"><span class="dot" style="background:var(--yt)"></span>YouTube</span>
-        <span class="chip"><span class="dot" style="background:var(--tt)"></span>TikTok</span>
-        <span class="chip"><span class="dot" style="background:var(--ig)"></span>Instagram</span>
-        <span class="chip"><span class="dot" style="background:var(--blue)"></span>iPhone, iPad and Android</span>
+      <p class="lead">OneView brings the views, likes, comments and followers of your YouTube, TikTok and Instagram accounts together. One chart for everything, a goal for every account, your best time to post, all your comments in one place, and one button to publish a video to all your accounts at once.</p>
+      <div class="works">
+        <div class="logos">
+          <span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FF0033" aria-hidden="true"><path d="M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"/></svg>YouTube</span>
+          <span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></svg>TikTok</span>
+          <span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FF3D8B" aria-hidden="true"><path d="M7.0301.084c-1.2768.0602-2.1487.264-2.911.5634-.7888.3075-1.4575.72-2.1228 1.3877-.6652.6677-1.075 1.3368-1.3802 2.127-.2954.7638-.4956 1.6365-.552 2.914-.0564 1.2775-.0689 1.6882-.0626 4.947.0062 3.2586.0206 3.6671.0825 4.9473.061 1.2765.264 2.1482.5635 2.9107.308.7889.72 1.4573 1.388 2.1228.6679.6655 1.3365 1.0743 2.1285 1.38.7632.295 1.6361.4961 2.9134.552 1.2773.056 1.6884.069 4.9462.0627 3.2578-.0062 3.668-.0207 4.9478-.0814 1.28-.0607 2.147-.2652 2.9098-.5633.7889-.3086 1.4578-.72 2.1228-1.3881.665-.6682 1.0745-1.3378 1.3795-2.1284.2957-.7632.4966-1.636.552-2.9124.056-1.2809.0692-1.6898.063-4.948-.0063-3.2583-.021-3.6668-.0817-4.9465-.0607-1.2797-.264-2.1487-.5633-2.9117-.3084-.7889-.72-1.4568-1.3876-2.1228C21.2982 1.33 20.628.9208 19.8378.6165 19.074.321 18.2017.1197 16.9244.0645 15.6471.0093 15.236-.005 11.977.0014 8.718.0076 8.31.0215 7.0301.0839m.1402 21.6932c-1.17-.0509-1.8053-.2453-2.2287-.408-.5606-.216-.96-.4771-1.3819-.895-.422-.4178-.6811-.8186-.9-1.378-.1644-.4234-.3624-1.058-.4171-2.228-.0595-1.2645-.072-1.6442-.079-4.848-.007-3.2037.0053-3.583.0607-4.848.05-1.169.2456-1.805.408-2.2282.216-.5613.4762-.96.895-1.3816.4188-.4217.8184-.6814 1.3783-.9003.423-.1651 1.0575-.3614 2.227-.4171 1.2655-.06 1.6447-.072 4.848-.079 3.2033-.007 3.5835.005 4.8495.0608 1.169.0508 1.8053.2445 2.228.408.5608.216.96.4754 1.3816.895.4217.4194.6816.8176.9005 1.3787.1653.4217.3617 1.056.4169 2.2263.0602 1.2655.0739 1.645.0796 4.848.0058 3.203-.0055 3.5834-.061 4.848-.051 1.17-.245 1.8055-.408 2.2294-.216.5604-.4763.96-.8954 1.3814-.419.4215-.8181.6811-1.3783.9-.4224.1649-1.0577.3617-2.2262.4174-1.2656.0595-1.6448.072-4.8493.079-3.2045.007-3.5825-.006-4.848-.0608M16.953 5.5864A1.44 1.44 0 1 0 18.39 4.144a1.44 1.44 0 0 0-1.437 1.4424M5.8385 12.012c.0067 3.4032 2.7706 6.1557 6.173 6.1493 3.4026-.0065 6.157-2.7701 6.1506-6.1733-.0065-3.4032-2.771-6.1565-6.174-6.1498-3.403.0067-6.156 2.771-6.1496 6.1738M8 12.0077a4 4 0 1 1 4.008 3.9921A3.9996 3.9996 0 0 1 8 12.0077"/></svg>Instagram</span>
+        </div>
+        <div class="logos">
+          <span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="#FFFFFF" aria-hidden="true"><path d="M12.152 6.896c-.948 0-2.415-1.078-3.96-1.04-2.04.027-3.91 1.183-4.961 3.014-2.117 3.675-.546 9.103 1.519 12.09 1.013 1.454 2.208 3.09 3.792 3.039 1.52-.065 2.09-.987 3.935-.987 1.831 0 2.35.987 3.96.948 1.637-.026 2.676-1.48 3.676-2.948 1.156-1.688 1.636-3.325 1.662-3.415-.039-.013-3.182-1.221-3.22-4.857-.026-3.04 2.48-4.494 2.597-4.559-1.429-2.09-3.623-2.324-4.39-2.376-2-.156-3.675 1.09-4.61 1.09zM15.53 3.83c.843-1.012 1.4-2.427 1.245-3.83-1.207.052-2.662.805-3.532 1.818-.78.896-1.454 2.338-1.273 3.714 1.338.104 2.715-.688 3.559-1.701"/></svg>iPhone</span>
+          <span class="logo"><svg width="20" height="20" viewBox="0 0 24 24" fill="#3DDC84" aria-hidden="true"><path d="M18.4395 5.5586c-.675 1.1664-1.352 2.3318-2.0274 3.498-.0366-.0155-.0742-.0286-.1113-.043-1.8249-.6957-3.484-.8-4.42-.787-1.8551.0185-3.3544.4643-4.2597.8203-.084-.1494-1.7526-3.021-2.0215-3.4864a1.1451 1.1451 0 0 0-.1406-.1914c-.3312-.364-.9054-.4859-1.379-.203-.475.282-.7136.9361-.3886 1.5019 1.9466 3.3696-.0966-.2158 1.9473 3.3593.0172.031-.4946.2642-1.3926 1.0177C2.8987 12.176.452 14.772 0 18.9902h24c-.119-1.1108-.3686-2.099-.7461-3.0683-.7438-1.9118-1.8435-3.2928-2.7402-4.1836a12.1048 12.1048 0 0 0-2.1309-1.6875c.6594-1.122 1.312-2.2559 1.9649-3.3848.2077-.3615.1886-.7956-.0079-1.1191a1.1001 1.1001 0 0 0-.8515-.5332c-.5225-.0536-.9392.3128-1.0488.5449zm-.0391 8.461c.3944.5926.324 1.3306-.1563 1.6503-.4799.3197-1.188.0985-1.582-.4941-.3944-.5927-.324-1.3307.1563-1.6504.4727-.315 1.1812-.1086 1.582.4941zM7.207 13.5273c.4803.3197.5506 1.0577.1563 1.6504-.394.5926-1.1038.8138-1.584.4941-.48-.3197-.5503-1.0577-.1563-1.6504.4008-.6021 1.1087-.8106 1.584-.4941z"/></svg>Android</span>
+        </div>
       </div>
     </div>
     <div class="phones" aria-label="Screenshots of the OneView app">
@@ -198,12 +203,12 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
     <h2>Five tabs. <span>Nothing twice.</span></h2>
     <p class="muted">Every screen has one job, so you always know where to look. Switch workspace from Home and every tab follows.</p>
     <div class="tabs">
-      <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4.5l8 7V20a1 1 0 0 1-1 1h-4.5v-5.5h-5V21H5a1 1 0 0 1-1-1z"/></svg></div><h3>Home</h3><p>Your total views, one chart for every platform, your accounts and the Publish button.</p></div>
+      <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 11.5 12 4.5l8 7V20a1 1 0 0 1-1 1h-4.5v-5.5h-5V21H5a1 1 0 0 1-1-1z"/></svg></div><h3>Home</h3><p>Your total views, one chart for every platform, your accounts and your profile.</p></div>
       <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 20V12M10 20V6M15 20v-9M20 20V9"/></svg></div><h3>Stats</h3><p>Words that work, best time, comparisons, top and flop.</p></div>
+      <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 14.5V3.8M8 7.6l4-4 4 4"/><path d="M7.5 10.5H7a2.5 2.5 0 0 0-2.5 2.5v5A2.5 2.5 0 0 0 7 20.5h10a2.5 2.5 0 0 0 2.5-2.5v-5a2.5 2.5 0 0 0-2.5-2.5h-.5"/></svg></div><h3>Publish</h3><p>Post one video everywhere and follow or cancel uploads.</p></div>
       <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 21V4M6 4.5c4-2 7 2 12 0v9c-5 2-8-2-12 0"/></svg></div><h3>Goals</h3><p>A goal for each account, with the date you'll reach it.</p></div>
       <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h7A2.5 2.5 0 0 1 16 6.5v4a2.5 2.5 0 0 1-2.5 2.5H9l-3.5 3v-3H6.5A2.5 2.5 0 0 1 4 10.5zM18 9h.5a2 2 0 0 1 2 2v3.5a2 2 0 0 1-2 2H18V19l-3-2.5h-2.5"/></svg></div><h3>Comments</h3><p>Every YouTube and Instagram comment of the workspace in one inbox.</p></div>
-      <div class="card tab"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><circle cx="12" cy="12" r="8.5"/><circle cx="12" cy="10" r="3"/><path d="M6.5 18.2c1.3-2 3.2-3 5.5-3s4.2 1 5.5 3"/></svg></div><h3>Profile</h3><p>Pro, your workspaces and your settings.</p></div>
-    </div>
+          </div>
   </section>
 
   <section id="features">
@@ -223,33 +228,32 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
         </div>
       </div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M8 14h3"/></svg></div><h3>Every account, up close</h3><p>A page per account in its platform's colors: views, likes, comments, followers and its latest videos, Shorts, TikToks and Reels.</p></div>
-      <div class="card feat wide"><span class="pro">PRO</span>
+      <div class="card feat wide">
         <div>
           <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg></div>
           <h3>Publish everywhere at once</h3>
-          <p>Pick a video, write the title, description and hashtags once, and tick the YouTube, TikTok and Instagram accounts of a workspace. Short or video, Reel or Story, who can watch: each account gets its own options, and you follow every upload live.</p>
+          <p>Pick a video, write the title, description and hashtags once, and tick the YouTube, TikTok and Instagram accounts of a workspace. Pick a thumbnail from the video or your gallery, a Reel or a Story, who can watch: each account gets its own options, and you follow every upload live.</p>
         </div>
         <div class="pub" aria-hidden="true"><div class="row"><span class="dot" style="background:var(--yt)"></span><span>YouTube · nova.studio<small>Short · Public</small><div class="bar"><i style="width:100%"></i></div></span><span class="ok"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12.5l4 4 8-9"/></svg></span></div><div class="row"><span class="dot" style="background:var(--tt)"></span><span>TikTok · @nova<small>Everyone · Comments on</small><div class="bar"><i style="width:72%"></i></div></span><span class="ok"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12.5l4 4 8-9"/></svg></span></div><div class="row"><span class="dot" style="background:var(--ig)"></span><span>Instagram · nova.studio<small>Reel · Shared to feed</small><div class="bar"><i style="width:45%"></i></div></span><span class="ok"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="3.2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 12.5l4 4 8-9"/></svg></span></div></div>
       </div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></div><h3>Edit your YouTube videos</h3><p>Change a video's title, description, tags and visibility right from its page, or delete it.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor"/></svg></div><h3>Goals for every account</h3><p>50K followers on TikTok, 10M views on YouTube: set as many goals as you want and see the date you'll hit them at your current pace.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"/></svg></div><h3>Words that work</h3><p>The words and hashtags in your titles and captions that show up in your best posts, plus a CSV export of all your stats.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></div><h3>Best time to post</h3><p>A day-by-hour heatmap of when your posts perform best, plus your top and flop content by views or engagement.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v13M4 14l3 3 3-3M17 20V7M14 10l3-3 3 3"/></svg></div><h3>Compare any period</h3><p>This hour, day, week, month or year vs the one before, with a % change for views, likes, comments and followers.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4 3.5V16a2 2 0 0 1-2-2z"/><path d="M8.5 10h7"/></svg></div><h3>One comments inbox</h3><p>YouTube and Instagram comments of the whole workspace, an Unanswered tab, quick replies and bot detection with a probability score.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2M9 15l-3-3c1-4 5-8 13-9-1 8-5 12-9 13z"/><circle cx="14.5" cy="9.5" r="1.5"/></svg></div><h3>New post tracking</h3><p>Follow your newest post hour by hour for 48 hours and see if it beats your usual curve.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 20h4L19 9l-4-4L4 16z"/><path d="M13.5 6.5l4 4"/></svg></div><h3>Edit your YouTube videos</h3><p>Change a video's title, description, tags and visibility right from its page, or delete it.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="4"/><circle cx="12" cy="12" r=".6" fill="currentColor"/></svg></div><h3>Goals for every account</h3><p>50K followers on TikTok, 10M views on YouTube: set as many goals as you want and see the date you'll hit them at your current pace.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 9h16M4 15h16M10 3 8 21M16 3l-2 18"/></svg></div><h3>Words that work</h3><p>The words and hashtags in your titles and captions that show up in your best posts, plus a CSV export of all your stats.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M12 7.5V12l3 2"/></svg></div><h3>Best time to post</h3><p>A day-by-hour heatmap of when your posts perform best, plus your top and flop content by views or engagement.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M7 4v13M4 14l3 3 3-3M17 20V7M14 10l3-3 3 3"/></svg></div><h3>Compare any period</h3><p>This hour, day, week, month or year vs the one before, with a % change for views, likes, comments and followers.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 6.5A2.5 2.5 0 0 1 6.5 4h11A2.5 2.5 0 0 1 20 6.5v7a2.5 2.5 0 0 1-2.5 2.5H10l-4 3.5V16a2 2 0 0 1-2-2z"/><path d="M8.5 10h7"/></svg></div><h3>All your comments</h3><p>A tab for YouTube and one for Instagram, from the newest comment to the oldest as you scroll, with Unanswered, quick replies and bot detection with a probability score.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 15c-1.5 1.5-2 5-2 5s3.5-.5 5-2M9 15l-3-3c1-4 5-8 13-9-1 8-5 12-9 13z"/><circle cx="14.5" cy="9.5" r="1.5"/></svg></div><h3>New post tracking</h3><p>Follow your newest post hour by hour for 48 hours and see if it beats your usual curve.</p></div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 15V3M8 7l4-4 4 4"/><path d="M5 12v6a3 3 0 0 0 3 3h8a3 3 0 0 0 3-3v-6"/></svg></div><h3>Shareable reports</h3><p>Your week (or month, with Pro) as a story-ready image, for Instagram, WhatsApp or a client.</p></div>
-      <div class="card feat"><span class="pro">PRO</span><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="2.5"/><rect x="13" y="3" width="8" height="8" rx="2.5"/><rect x="3" y="13" width="18" height="8" rx="2.5"/></svg></div><h3>Stats and goal widgets</h3><p>Pick a workspace, accounts and period, or a goal with a ring or a bar in your color, and keep it on your Home Screen. On iPhone and Android.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="8" height="8" rx="2.5"/><rect x="13" y="3" width="8" height="8" rx="2.5"/><rect x="3" y="13" width="18" height="8" rx="2.5"/></svg></div><h3>Stats and goal widgets</h3><p>Pick a workspace, accounts and period, or a goal with a ring or a bar in your color, and keep it on your Home Screen. On iPhone and Android.</p></div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M3 7.5 12 3l9 4.5-9 4.5z"/><path d="M3 12l9 4.5 9-4.5M3 16.5 12 21l9-4.5"/></svg></div><h3>Accounts and workspaces</h3><p>Connect several accounts per platform and group them into workspaces you can rename, like your own channels and each client.</p></div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9a6 6 0 0 1 12 0c0 5 2 6.5 2 6.5H4S6 14 6 9z"/><path d="M10 19a2 2 0 0 0 4 0"/></svg></div><h3>Milestone alerts</h3><p>A notification when you pass 10K followers, when a post takes off with 3× your usual views, or when you reach a goal.</p></div>
-      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="8.5"/><path d="M10 8.5v7l5.5-3.5z"/></svg></div><h3>Try the demo</h3><p>Explore every screen with a sample creator before you connect anything. One tap to leave it.</p></div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="6" y="2.5" width="12" height="19" rx="3"/><path d="M10 18.5h4"/></svg></div><h3>Native on every phone</h3><p>A clean dark design with the system's own tab bar: Liquid Glass on iPhone, Material on Android. Swipe between tabs, swipe an account to remove it.</p></div>
     </div>
   </section>
 
   <section id="screens">
     <h2>See it <span>in action.</span></h2>
-    <p class="muted">Swipe through the app, or open the demo in OneView to try every screen with a sample creator.</p>
+    <p class="muted">Swipe through the app.</p>
     <div class="gallery">
       <img src="img/shot-01.webp" alt="Home: all your stats in one place" width="540" height="1174" loading="lazy">
       <img src="img/shot-02.webp" alt="An account page" width="540" height="1174" loading="lazy">
@@ -269,7 +273,6 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
     <p class="muted">Start for free. Upgrade when you want to publish everywhere, goals, insights and more accounts. Try Pro free for 7 days.</p>
     <div class="plans">
       <div class="card plan">
-        <span class="tag">FREE</span>
         <h3>OneView</h3>
         <div class="price">€0</div>
         <ul>
@@ -284,10 +287,10 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
         </ul>
       </div>
       <div class="card plan pro">
-        <span class="tag">PRO · 7-DAY FREE TRIAL</span>
         <h3>OneView Pro</h3>
         <div class="price">€39.99 <small>/ year</small></div>
         <p class="muted" style="font-size:14px">or €4.99 / month · save 33% with the yearly plan</p>
+        <p class="trial">Free for your first 7 days.</p>
         <ul>
           <li>Everything in Free</li>
           <li>Publish a video to YouTube, TikTok and Instagram in one go</li>
