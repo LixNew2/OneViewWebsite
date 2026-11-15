@@ -1,0 +1,39 @@
+# Every search engine and AI assistant is welcome. Only the sign-in return page is left out.
+User-agent: *
+Allow: /
+Disallow: /callback.html
+
+# AI crawlers, named so it is explicit that they may read the site.
+User-agent: GPTBot
+Allow: /
+Disallow: /callback.html
+
+User-agent: OAI-SearchBot
+Allow: /
+Disallow: /callback.html
+
+User-agent: ChatGPT-User
+Allow: /
+Disallow: /callback.html
+
+User-agent: ClaudeBot
+Allow: /
+Disallow: /callback.html
+
+User-agent: Claude-User
+Allow: /
+Disallow: /callback.html
+
+User-agent: PerplexityBot
+Allow: /
+Disallow: /callback.html
+
+User-agent: Google-Extended
+Allow: /
+Disallow: /callback.html
+
+User-agent: Applebot-Extended
+Allow: /
+Disallow: /callback.html
+
+Sitemap: https://getoneviewapp.com/sitemap.xml

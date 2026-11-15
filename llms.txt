@@ -1,0 +1,25 @@
+# OneView
+
+> OneView is a mobile app (iPhone and Android) that brings the stats of a creator's YouTube, TikTok and Instagram accounts into one place, and publishes one video to all three at once. Free plan; OneView Pro costs €4.99 a month or €39.99 a year, with the first 7 days free for eligible new subscribers.
+
+## TL;DR
+
+- What: one app for the views, likes, comments and followers of YouTube, TikTok and Instagram accounts.
+- Publishing: post one video to YouTube, TikTok and Instagram at once, with per-platform options (visibility, schedule, playlist, who can watch, TikTok inbox draft, Reel or Story) and a thumbnail picked from the video or the gallery.
+- Analysis: one chart for every platform, goals per account with a predicted date, best time to post, top and flop content, words and hashtags that work, period comparisons, new post tracking for 48 hours.
+- Comments: a YouTube tab and an Instagram tab, newest to oldest, with Unanswered, quick replies and bot detection. TikTok does not give apps access to comments.
+- Extras: workspaces for several channels or clients, shareable reports, milestone notifications, Home Screen widgets on iPhone and Android.
+- Privacy: sign-in on Google, TikTok and Meta's own pages; tokens and stats stay on the phone; nothing is sold; videos go straight from the phone to the platform.
+- Not affiliated with YouTube, TikTok or Instagram; uses their official APIs.
+
+## Plans
+
+- Free (€0): 1 workspace; 1 YouTube, 1 TikTok and 1 Instagram account; combined stats for the last hour, 24 hours and 7 days; a page per account; weekly report; milestone notifications.
+- Pro (€4.99/month or €39.99/year): everything in Free, plus publishing to all platforms, YouTube video editing and deletion, unlimited accounts and workspaces, 30-day and all-time stats, unlimited goals, insights, comparisons, new post tracking, comments, monthly reports, CSV export and widgets. Bought in the app through the App Store or Google Play; cancel in the store's account settings.
+
+## Pages
+
+- [Home](https://getoneviewapp.com/): features, screenshots, pricing and FAQ
+- [Privacy Policy](https://getoneviewapp.com/privacy.html): what data OneView reads and where it stays
+- [Terms of Use](https://getoneviewapp.com/terms.html): terms, including Pro subscriptions
+- [Refund Policy](https://getoneviewapp.com/refund.html): cancelling and refunds through the App Store or Google Play

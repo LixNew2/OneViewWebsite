@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
+  <url>
+    <loc>https://getoneviewapp.com/</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+    <image:image><image:loc>https://getoneviewapp.com/og.png</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/screen-home.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/screen-account.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/screen-goals.webp</image:loc></image:image>
+  </url>
+  <url>
+    <loc>https://getoneviewapp.com/privacy.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+  </url>
+  <url>
+    <loc>https://getoneviewapp.com/terms.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getoneviewapp.com/refund.html</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+  <url>
+    <loc>https://getoneviewapp.com/llms.txt</loc>
+    <lastmod>2026-11-15</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.3</priority>
+  </url>
+</urlset>
