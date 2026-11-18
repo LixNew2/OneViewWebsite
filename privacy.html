@@ -27,6 +27,7 @@
 <ul>
 <li>Profile information: display name, username and profile picture.</li>
 <li>Audience data: follower or subscriber count.</li>
+<li>YouTube revenue (only for a YouTube channel you connect, once you grant the revenue permission): your channel's and your videos' estimated revenue, RPM, CPM, monetized playbacks and ad impressions. TikTok and Instagram do not share revenue.</li>
 <li>Content statistics: titles, thumbnails, views, likes and comments of your videos and posts, and their publication dates.</li>
 <li>Comments on your own videos and posts (with OneView Pro): author name, text and date.</li>
 </ul>
@@ -57,14 +58,15 @@
 <p>OneView's use of information received from Google APIs adheres to the <a href="https://developers.google.com/terms/api-services-user-data-policy">Google API Services User Data Policy</a>, including the Limited Use requirements. OneView also uses the <a href="https://www.youtube.com/t/terms">YouTube API Services</a>.</p>
 
 <h2 id="google">5b. Google user data (YouTube)</h2>
-<p>When you connect a YouTube account, OneView requests three Google OAuth scopes:</p>
+<p>When you connect a YouTube account, OneView requests the following Google OAuth scopes:</p>
 <ul>
 <li><strong>youtube.readonly</strong>: to read your channel name, profile picture and subscriber count, and the list of your own videos with their titles, thumbnails, views, likes and comment counts.</li>
 <li><strong>yt-analytics.readonly</strong>: to read your channel's daily views, likes, comments and subscribers gained or lost, shown as charts and period totals.</li>
+<li><strong>yt-analytics-monetary.readonly</strong>: to read the estimated revenue of your own channel and of each of your videos (estimated revenue, ad revenue, gross revenue, RPM, CPM, playback-based CPM, monetized playbacks, ad impressions), shown as the revenue chart, the revenue figures of your channel and video pages, and, if you choose it, your Home Screen widget. Read-only: nothing is ever changed with it.</li>
 <li><strong>youtube.force-ssl</strong>: to read the comments on your own videos and, only when you tap the corresponding button, post a reply or delete / reject a comment, edit the title, description, tags, visibility or "made for kids" setting of one of your videos, delete one of your videos after you confirm it, or upload a video you picked to your channel.</li>
 </ul>
 <p><strong>Data access:</strong> OneView only accesses the raw data listed above, for the channel you choose to connect. It does not access any other Google service or account data.</p>
-<p><strong>Data use:</strong> Google user data is used only to show you your statistics, charts, goals, best-time-to-post insights, reports, comment inbox and widgets inside the app, to compute on-device notifications, and to carry out the edits and uploads you request. It is never used for advertising, profiling, lending or to train AI/ML models.</p>
+<p><strong>Data use:</strong> Google user data is used only to show you your statistics, revenue, charts, goals, best-time-to-post insights, reports, comment inbox and widgets inside the app, to compute on-device notifications, and to carry out the edits and uploads you request. It is never used for advertising, profiling, lending or to train AI/ML models.</p>
 <p><strong>Data transfer:</strong> Google user data, raw or aggregated, is not transferred, sold or shared with any third party, and is not sent to the developer. The only exception is a report image that you choose to share yourself through your device's share sheet.</p>
 <p><strong>Data protection:</strong> all requests go directly from your device to Google over HTTPS. OAuth tokens are stored in the device's secure storage (iOS Keychain / Android Keystore); statistics are stored in the app's private storage on your device.</p>
 <p><strong>Data retention and deletion:</strong> statistics history is kept on your device for up to 35 days. Disconnecting the YouTube account in the app (long-press → Remove) immediately deletes its tokens and data from your device; uninstalling the app removes everything. You can also revoke access at <a href="https://myaccount.google.com/permissions">myaccount.google.com/permissions</a>.</p>
