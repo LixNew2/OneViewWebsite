@@ -1,23 +1,26 @@
 # OneView
 
-> OneView is a mobile app (iPhone and Android) that brings the stats of a creator's YouTube, TikTok and Instagram accounts into one place, and publishes one video to all three at once. Free plan; OneView Pro costs $4.99 a month, $49.99 a year or $79.99 once for life, with the first 7 days free for eligible new subscribers.
+> OneView is a mobile app (iPhone and Android) that brings the stats of a creator's YouTube, TikTok, Instagram and Twitch accounts into one place, and publishes one video (or Twitch clips) to all of them at once. Free plan (3 accounts); OneView Pro costs $3.99 a month, $24.99 a year or $49.99 once for life, with the first 7 days free for eligible new subscribers.
 
 ## TL;DR
 
-- What: one app for the views, likes, comments and followers of YouTube, TikTok and Instagram accounts.
+- What: one app for the views, likes, comments, followers, revenue and lives of YouTube, TikTok, Instagram and Twitch accounts.
+- Twitch: followers, subs by tier and gifted subs, Bits and top cheerers, clips and their views (Twitch has no view total: OneView counts clip views), VODs, Hype Train, Twitch goals, live status with viewers, and the live chat in the app.
+- Live: a red LIVE badge with viewers and duration on Twitch, YouTube and Instagram (TikTok's API says nothing about lives).
 - Publishing: post one video to YouTube, TikTok and Instagram at once, with per-platform options (visibility, schedule, playlist, who can watch, TikTok inbox draft, Reel or Story) and a thumbnail picked from the video or the gallery.
-- Charts: views, followers (gains in green, losses in red) or YouTube revenue, for all accounts together or each one.
-- YouTube revenue: estimated earnings, RPM, CPM, monetized playbacks and ad impressions for the channel and each video (TikTok and Instagram don't share revenue).
+- Charts: views, followers (gains in green, losses in red) or revenue, for all accounts together or each one. Twitch also has subs and Bits charts.
+- Revenue: YouTube's estimated earnings, RPM, CPM, monetized playbacks and ad impressions for the channel and each video; Twitch (subs × price × the creator's split, plus Bits) and TikTok (Creator Rewards: videos of a minute or more since monetization, at the creator's rate or as a range) are OneView's own estimates, marked as such and added to the total. Instagram shares no revenue.
+- Clip reposts (Pro): pick up to 10 Twitch clips and post them as YouTube Shorts, TikToks and Instagram Reels.
 - Analysis: one chart for every platform, goals per account with a predicted date, best time to post, top and flop content, words and hashtags that work, period comparisons, new post tracking for 48 hours.
-- Comments: a YouTube tab and an Instagram tab, newest to oldest, with Unanswered, quick replies and bot detection. TikTok does not give apps access to comments.
+- Comments: a YouTube tab and an Instagram tab, newest to oldest, with Unanswered, quick replies and bot detection. TikTok does not give apps access to comments, and Twitch clips have none.
 - Extras: workspaces for several channels or clients, free weekly and monthly shareable reports, milestone notifications, Home Screen widgets on iPhone and Android.
-- Privacy: sign-in on Google, TikTok and Meta's own pages; tokens and stats stay on the phone; nothing is sold; videos go straight from the phone to the platform.
-- Not affiliated with YouTube, TikTok or Instagram; uses their official APIs.
+- Privacy: sign-in on Google, TikTok, Meta and Twitch's own pages; tokens and stats stay on the phone; nothing is sold; videos go straight from the phone to the platform.
+- Not affiliated with YouTube, TikTok, Instagram or Twitch; uses their official APIs.
 
 ## Plans
 
-- Free ($0): 1 workspace; 1 YouTube, 1 TikTok and 1 Instagram account; combined stats for the last hour, 24 hours and 7 days; a page per account; YouTube revenue chart; weekly and monthly reports; milestone notifications.
-- Pro ($4.99/month, $49.99/year or $79.99 once for life): everything in Free, plus publishing to all platforms, YouTube video editing and deletion, unlimited accounts and workspaces, 30-day and all-time stats, unlimited goals, insights, detailed analytics (including YouTube RPM and CPM), comparisons, new post tracking, comments, CSV export and widgets (views, followers or revenue). Bought in the app through the App Store or Google Play; cancel in the store's account settings.
+- Free ($0): 1 workspace; 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch; combined stats for the last hour, 24 hours and 7 days; a page per account (Twitch subs, Bits, clips, live chat); live status; revenue chart (YouTube plus Twitch and TikTok estimates); weekly and monthly reports; milestone notifications.
+- Pro ($3.99/month, $24.99/year or $49.99 once for life): everything in Free, plus publishing to all platforms, Twitch clip reposts, YouTube video editing and deletion, unlimited accounts and workspaces, 30-day and all-time stats, unlimited goals, insights, detailed analytics (including YouTube RPM and CPM), comparisons, new post tracking, comments, CSV export and widgets (views, followers or revenue). Bought in the app through the App Store or Google Play; cancel in the store's account settings.
 
 ## Pages
 
