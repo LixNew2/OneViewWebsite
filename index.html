@@ -310,6 +310,8 @@ h2 span{color:var(--blue)}
 .plans{display:grid;grid-template-columns:1fr 1fr;gap:16px;margin:28px 0 16px}
 .plan{padding:26px;display:flex;flex-direction:column;gap:6px}
 .plan.pro{border-color:rgba(77,141,255,.5);background:linear-gradient(180deg,rgba(47,107,255,.12),rgba(47,107,255,0) 45%),var(--card);box-shadow:0 0 60px rgba(47,107,255,.15)}
+.plan.pro{position:relative}
+.popular{position:absolute;top:-13px;left:26px;padding:5px 12px;border-radius:999px;background:var(--blue);color:#fff;font-size:12.5px;font-weight:700;letter-spacing:.1px;box-shadow:0 6px 20px rgba(77,141,255,.35)}
 .trial{margin:2px 0 0;font-size:14.5px;font-weight:700;color:var(--blue)}
 .plan h3{margin:0;font-size:20px;font-weight:800}
 .price{font-size:46px;font-weight:800;letter-spacing:-2px;margin:2px 0 0}
@@ -558,6 +560,7 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
         </ul>
       </div>
       <div class="card plan pro">
+        <span class="popular">Most popular · Yearly</span>
         <h3>OneView Pro</h3>
         <div class="price">$49.99 <small>/ year</small></div>
         <p class="muted" style="font-size:14px">or $4.99 / month · save 17% with the yearly plan<br>or $79.99 once for Pro for life</p>
