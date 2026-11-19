@@ -5,12 +5,12 @@
 ## TL;DR
 
 - What: one app for the views, likes, comments, followers, revenue and lives of YouTube, TikTok, Instagram and Twitch accounts.
-- Twitch: followers, subs by tier and gifted subs, Bits and top cheerers, clips and their views (Twitch has no view total: OneView counts clip views), VODs, Hype Train, Twitch goals, live status with viewers, and the live chat in the app.
-- Live: a red LIVE badge with viewers and duration on Twitch, YouTube and Instagram (TikTok's API says nothing about lives).
+- Twitch: followers, subs by tier and gifted subs, Bits and top cheerers, clips and their views (Twitch has no view total: OneView counts clip views, never VOD views), Hype Train, Twitch goals, live status with viewers.
+- Live: a red LIVE badge with viewers and duration on Twitch and YouTube (TikTok's and Instagram's APIs don't share lives). Pro: read and answer the live chat in the app, and on Twitch the Hype Train and sub goal live.
 - Publishing: post one video to YouTube, TikTok and Instagram at once, with per-platform options (visibility, schedule, playlist, who can watch, TikTok inbox draft, Reel or Story) and a thumbnail picked from the video or the gallery.
 - Charts: views, followers (gains in green, losses in red) or revenue, for all accounts together or each one. Twitch also has subs and Bits charts.
 - Revenue: YouTube's estimated earnings, RPM, CPM, monetized playbacks and ad impressions for the channel and each video; Twitch (subs × price × the creator's split, plus Bits) and TikTok (Creator Rewards: videos of a minute or more since monetization, at the creator's rate or as a range) are OneView's own estimates, marked as such and added to the total. Instagram shares no revenue.
-- Clip reposts (Pro): pick up to 10 Twitch clips and post them as YouTube Shorts, TikToks and Instagram Reels.
+- Clip reposts (Pro): select a Twitch clip and repost it as a YouTube Short, TikTok or Instagram Reel, in portrait, with its own title.
 - Analysis: one chart for every platform, goals per account with a predicted date, best time to post, top and flop content, words and hashtags that work, period comparisons, new post tracking for 48 hours.
 - Comments: a YouTube tab and an Instagram tab, newest to oldest, with Unanswered, quick replies and bot detection. TikTok does not give apps access to comments, and Twitch clips have none.
 - Extras: workspaces for several channels or clients, free weekly and monthly shareable reports, milestone notifications, Home Screen widgets on iPhone and Android.
@@ -19,7 +19,7 @@
 
 ## Plans
 
-- Free ($0): 1 workspace; 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch; combined stats for the last hour, 24 hours and 7 days; a page per account (Twitch subs, Bits, clips, live chat); live status; revenue chart (YouTube plus Twitch and TikTok estimates); weekly and monthly reports; milestone notifications.
+- Free ($0): 1 workspace; 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch; combined stats for the last hour, 24 hours and 7 days; a page per account (Twitch subs, Bits, clips); live status with viewers; revenue chart (YouTube plus Twitch and TikTok estimates); weekly and monthly reports; milestone notifications.
 - Pro ($3.99/month, $24.99/year or $49.99 once for life): everything in Free, plus publishing to all platforms, Twitch clip reposts, YouTube video editing and deletion, unlimited accounts and workspaces, 30-day and all-time stats, unlimited goals, insights, detailed analytics (including YouTube RPM and CPM), comparisons, new post tracking, comments, CSV export and widgets (views, followers or revenue). Bought in the app through the App Store or Google Play; cancel in the store's account settings.
 
 ## Pages

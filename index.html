@@ -93,9 +93,9 @@
     "YouTube, TikTok, Instagram and Twitch stats in one app",
     "Views, followers and revenue charts",
     "Twitch subs, Bits, clips, Hype Train and goals",
-    "Live status, viewers and the Twitch live chat",
+    "Live status and viewers on YouTube and Twitch, and your live chat in the app",
     "Estimated Twitch and TikTok revenue, set to your own split and rate",
-    "Repost Twitch clips as Shorts, TikToks and Reels",
+    "Repost a Twitch clip as a Short, TikTok or Reel",
     "YouTube revenue, RPM and CPM",
     "Publish one video to YouTube, TikTok and Instagram at once",
     "Custom thumbnails",
@@ -163,7 +163,7 @@
      "name": "Is OneView free?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. The free plan covers one workspace with 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch, your combined stats for the last hour, 24 hours and 7 days, a page per account (Twitch subs, Bits, clips and live chat included), live status, the revenue chart (YouTube, plus Twitch and TikTok estimates), weekly and monthly reports and milestone notifications. OneView Pro costs $3.99 a month or $24.99 a year (or $49.99 once for life), and eligible new subscribers get the first 7 days free."
+      "text": "Yes. The free plan covers one workspace with 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch, your combined stats for the last hour, 24 hours and 7 days, a page per account (Twitch subs, Bits and clips included), live status and viewers, the revenue chart (YouTube, plus Twitch and TikTok estimates), weekly and monthly reports and milestone notifications. OneView Pro costs $3.99 a month or $24.99 a year (or $49.99 once for life), and eligible new subscribers get the first 7 days free."
      }
     },
     {
@@ -179,7 +179,7 @@
      "name": "Can I reply to comments from OneView?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, for YouTube and Instagram: each platform has its own tab with All, Unanswered and Possible bots, loaded from the newest comment to the oldest as you scroll. You can reply, save quick replies and remove spam. TikTok does not give apps access to comments, and Twitch clips have none; your Twitch live chat can be read and written from your Twitch account page."
+      "text": "Yes, for YouTube and Instagram: each platform has its own tab with All, Unanswered and Possible bots, loaded from the newest comment to the oldest as you scroll. You can reply, save quick replies and remove spam. TikTok does not give apps access to comments, and Twitch clips have none; with Pro, your YouTube and Twitch live chat can be read and answered from the account page while you're live."
      }
     },
     {
@@ -187,7 +187,7 @@
      "name": "Does OneView work with Twitch?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes. Connect your channel on Twitch's own activation page: OneView shows your followers, subs by tier (gifted ones too), Bits, your clips and their views, your VODs, the Hype Train and your Twitch goals as progress bars, with a red LIVE badge, your viewers and how long you've been live, and your live chat right in the app. Twitch has no view total, so OneView counts your clips' views. Subs and Bits need Affiliate or Partner status."
+      "text": "Yes. Connect your channel on Twitch's own activation page: OneView shows your followers, subs by tier (gifted ones too), Bits, your clips and their views, the Hype Train and your Twitch goals, with a red LIVE badge, your viewers and how long you've been live. With Pro: the Hype Train and your sub goal live, and your live chat right in the app. Twitch has no view total, so OneView counts your clips' views. Subs and Bits need Affiliate or Partner status."
      }
     },
     {
@@ -203,7 +203,7 @@
      "name": "Can I repost my Twitch clips?",
      "acceptedAnswer": {
       "@type": "Answer",
-      "text": "Yes, with Pro. On your Twitch page, pick one clip or up to 10, give each a title, choose portrait or landscape and the YouTube, TikTok and Instagram accounts to post to: each clip becomes its own Short, TikTok or Reel. Twitch's API doesn't let apps delete a clip, so that stays on Twitch."
+      "text": "Yes, with Pro. On your Twitch page, pick a clip (its button, a long press, or its page): it opens in New post as your video, in portrait. Give it a title and a description, tick your YouTube, TikTok and Instagram accounts, and it's posted as a Short, TikTok or Reel. Twitch's API doesn't let apps delete a clip, so that stays on Twitch."
      }
     },
     {
@@ -491,7 +491,8 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
         <li><strong>What:</strong> one app for the stats of your YouTube, TikTok, Instagram and Twitch accounts.</li>
         <li><strong>Publish:</strong> post one video to all your accounts at once, each with its own options and thumbnail, or repost your Twitch clips as Shorts, TikToks and Reels.</li>
         <li><strong>Charts:</strong> views, followers (green when you gain, red when you lose) and revenue, switched with one tap.</li>
-        <li><strong>Twitch:</strong> subs by tier, Bits, clips, Hype Train, goals, a red LIVE badge with your viewers, and your live chat in the app.</li>
+        <li><strong>Twitch:</strong> subs by tier, Bits, clips, Hype Train, goals, and a red LIVE badge with your viewers.</li>
+        <li><strong>Live:</strong> a red LIVE badge and your viewers on YouTube and Twitch; with Pro, read and answer your live chat in the app.</li>
         <li><strong>Revenue:</strong> YouTube's real revenue, plus Twitch and TikTok estimates set to your own split and rate.</li>
         <li><strong>Also:</strong> YouTube revenue, RPM and CPM, goals per account, best time to post, period comparisons, comments with bot detection, free weekly and monthly reports and Home Screen widgets.</li>
         <li><strong>Price:</strong> free plan (3 accounts); Pro at $3.99/month, $24.99/year or $49.99 once for life, first 7 days free.</li>
@@ -532,9 +533,9 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
       </div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="3"/><path d="M3 9h18M8 14h3"/></svg></div><h3>Every account, up close</h3><p>A page per account in its platform's colors: views, likes, comments, followers and its latest videos, Shorts, TikToks and Reels, with its own views, followers and revenue charts.</p></div>
       <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3v18"/><path d="M16.5 7.5c-.7-1.4-2.4-2.3-4.5-2.3-2.6 0-4.5 1.4-4.5 3.3 0 4.6 9 2.4 9 7 0 2-2 3.4-4.5 3.4-2.3 0-4.1-1-4.8-2.6"/></svg></div><h3>All your revenue</h3><p>YouTube's estimated earnings with RPM and CPM, for your channel and each video. Twitch (subs × price × your share, plus Bits) and TikTok (Creator Rewards, videos of a minute or more since you're monetized) are estimated by OneView with your own split and rate, always marked as estimates, and added to your total.</p></div>
-      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M6.3 6.3a8 8 0 0 0 0 11.4M17.7 6.3a8 8 0 0 1 0 11.4M3.5 3.5a12 12 0 0 0 0 17M20.5 3.5a12 12 0 0 1 0 17"/></svg></div><h3>Live now</h3><p>A red LIVE badge on the account when you stream, with your viewers and how long you've been live. On Twitch: the Hype Train and your goals as progress bars, and your live chat right in the app.</p></div>
-      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3 2 7v13h5v3h3l3-3h4l5-5V3z"/><path d="M11 8v4M16 8v4"/></svg></div><h3>Twitch, fully</h3><p>Followers, subs by tier and gifted subs, Bits and your top cheerers, clips and their views, VODs, Hype Train record and Twitch goals, with a chart for views, subs, Bits and revenue.</p></div>
-      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg></div><h3>Repost your Twitch clips</h3><p>Pick one clip or up to 10, give each a title, choose portrait or landscape, and post them as Shorts, TikToks and Reels in one go. Pro.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="3"/><path d="M6.3 6.3a8 8 0 0 0 0 11.4M17.7 6.3a8 8 0 0 1 0 11.4M3.5 3.5a12 12 0 0 0 0 17M20.5 3.5a12 12 0 0 1 0 17"/></svg></div><h3>Live now</h3><p>A red LIVE badge and a red ring on the account when you stream on YouTube or Twitch, with your viewers and how long you've been live. With Pro: read and answer your live chat right in the app, and on Twitch follow the Hype Train and your sub goal live.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 3 2 7v13h5v3h3l3-3h4l5-5V3z"/><path d="M11 8v4M16 8v4"/></svg></div><h3>Twitch, fully</h3><p>Followers, subs, Bits, clips and their views, and estimated revenue, with a chart for each. Pro: subs by tier and gifted subs, top cheerers, Hype Train and Twitch goals, for any period.</p></div>
+      <div class="card feat"><div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M17 2l4 4-4 4"/><path d="M3 11V9a3 3 0 0 1 3-3h15M7 22l-4-4 4-4"/><path d="M21 13v2a3 3 0 0 1-3 3H3"/></svg></div><h3>Repost your Twitch clips</h3><p>Pick a clip and repost it as a Short, TikTok or Reel, in portrait, with its own title and description, like any video you publish. Pro.</p></div>
       <div class="card feat wide">
         <div>
           <div class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 16V4M7 9l5-5 5 5"/><path d="M4 15v3a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3v-3"/></svg></div>
@@ -588,12 +589,12 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
           <li>3 accounts of your choice among YouTube, TikTok, Instagram and Twitch</li>
           <li>Combined views, followers and revenue (YouTube, plus Twitch and TikTok estimates), with their charts</li>
           <li>Twitch subs, Bits, clips, Hype Train and goals</li>
-          <li>Live status with viewers, and your Twitch live chat</li>
+          <li>Live status with viewers on YouTube and Twitch</li>
           <li>Last hour, 24 hours and 7 days</li>
           <li>A page per account with its latest posts</li>
           <li>Weekly and monthly shareable reports</li>
           <li>Milestone and viral post notifications</li>
-          <li class="no">Publishing, clip reposts, YouTube video editing, goals, detailed analytics, comparisons, new post tracking, comments, CSV and widgets</li>
+          <li class="no">Publishing, clip reposts, the live chat in the app, YouTube video editing, goals, detailed analytics, comparisons, new post tracking, comments, CSV and widgets</li>
         </ul>
       </div>
       <div class="card plan pro">
@@ -605,11 +606,12 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
         <ul>
           <li>Everything in Free</li>
           <li>Publish a video to YouTube, TikTok and Instagram in one go</li>
-          <li>Repost your Twitch clips as Shorts, TikToks and Reels, up to 10 at once, portrait or landscape</li>
+          <li>Select a Twitch clip and repost it as a Short, TikTok or Reel, in portrait</li>
+          <li>Your YouTube and Twitch live chat in the app: read it and answer, with your viewers live, and on Twitch the Hype Train and your sub goal</li>
           <li>Edit or delete your YouTube videos</li>
           <li>Unlimited accounts and workspaces</li>
           <li>30-day and all-time stats and charts, revenue, subs and Bits included</li>
-          <li>Detailed analytics: watch time, retention, traffic sources, audience, YouTube RPM and CPM per channel and per video, and for Twitch subs by tier, clippers, games and cheerers</li>
+          <li>Detailed analytics: watch time, retention, traffic sources, audience, YouTube RPM and CPM per channel and per video, and for Twitch subs by tier, gifted subs, Hype Train, goals, clippers, games and cheerers</li>
           <li>Unlimited goals for every account</li>
           <li>Words and hashtags that work</li>
           <li>Best time to post, top and flop content on every platform, Twitch clips included</li>
@@ -630,12 +632,12 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
     <div class="faq">
       <details class="card"><summary>What is OneView?</summary><p>OneView is a mobile app for creators that brings the stats of your YouTube, TikTok, Instagram and Twitch accounts into one place: views, followers, revenue and lives, one chart for every platform, goals, the best time to post, your comments, and one button to publish a video (or your Twitch clips) to all your accounts at once.</p></details>
       <details class="card"><summary>Which platforms and phones does OneView support?</summary><p>OneView works with YouTube, TikTok, Instagram (professional accounts) and Twitch. The app runs on iPhone and Android, with Home Screen widgets on both.</p></details>
-      <details class="card"><summary>Is OneView free?</summary><p>Yes. The free plan covers one workspace with 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch, your combined stats for the last hour, 24 hours and 7 days, a page per account (Twitch subs, Bits, clips and live chat included), live status, the revenue chart (YouTube, plus Twitch and TikTok estimates), weekly and monthly reports and milestone notifications. OneView Pro costs $3.99 a month or $24.99 a year (or $49.99 once for life), and eligible new subscribers get the first 7 days free.</p></details>
+      <details class="card"><summary>Is OneView free?</summary><p>Yes. The free plan covers one workspace with 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch, your combined stats for the last hour, 24 hours and 7 days, a page per account (Twitch subs, Bits and clips included), live status and viewers, the revenue chart (YouTube, plus Twitch and TikTok estimates), weekly and monthly reports and milestone notifications. OneView Pro costs $3.99 a month or $24.99 a year (or $49.99 once for life), and eligible new subscribers get the first 7 days free.</p></details>
       <details class="card"><summary>Can I publish one video to YouTube, TikTok and Instagram at once?</summary><p>Yes, with Pro. Pick a video, write the title, description and hashtags once, tick your accounts, and set each platform's options: visibility, made for kids, schedule and playlist on YouTube, who can watch or a draft in your TikTok inbox, Reel or Story on Instagram, plus a thumbnail. YouTube itself decides whether a video is a Short: vertical or square videos of 3 minutes or less become Shorts.</p></details>
-      <details class="card"><summary>Can I reply to comments from OneView?</summary><p>Yes, for YouTube and Instagram: each platform has its own tab with All, Unanswered and Possible bots, loaded from the newest comment to the oldest as you scroll. You can reply, save quick replies and remove spam. TikTok does not give apps access to comments, and Twitch clips have none; your Twitch live chat can be read and written from your Twitch account page.</p></details>
-      <details class="card"><summary>Does OneView work with Twitch?</summary><p>Yes. Connect your channel on Twitch's own activation page: OneView shows your followers, subs by tier (gifted ones too), Bits, your clips and their views, your VODs, the Hype Train and your Twitch goals as progress bars, with a red LIVE badge, your viewers and how long you've been live, and your live chat right in the app. Twitch has no view total, so OneView counts your clips' views. Subs and Bits need Affiliate or Partner status.</p></details>
+      <details class="card"><summary>Can I reply to comments from OneView?</summary><p>Yes, for YouTube and Instagram: each platform has its own tab with All, Unanswered and Possible bots, loaded from the newest comment to the oldest as you scroll. You can reply, save quick replies and remove spam. TikTok does not give apps access to comments, and Twitch clips have none; with Pro, your YouTube and Twitch live chat can be read and answered from the account page while you're live.</p></details>
+      <details class="card"><summary>Does OneView work with Twitch?</summary><p>Yes. Connect your channel on Twitch's own activation page: OneView shows your followers, subs by tier (gifted ones too), Bits, your clips and their views, the Hype Train and your Twitch goals, with a red LIVE badge, your viewers and how long you've been live. With Pro: the Hype Train and your sub goal live, and your live chat right in the app. Twitch has no view total, so OneView counts your clips' views. Subs and Bits need Affiliate or Partner status.</p></details>
       <details class="card"><summary>Can I see my Twitch and TikTok revenue?</summary><p>Yes, as estimates, always marked as such: Twitch's is your subs × their price × your share (50/50, 60/40, 70/30 or your own, set in Profile) plus 1 cent per Bit; TikTok's counts the views of your videos of a minute or more since you're monetized (10K followers), at your own rate if you type it, otherwise as a range. Both are added to your real YouTube revenue in the totals, with an "of which estimated" line.</p></details>
-      <details class="card"><summary>Can I repost my Twitch clips?</summary><p>Yes, with Pro. On your Twitch page, pick one clip or up to 10, give each a title, choose portrait or landscape and the YouTube, TikTok and Instagram accounts to post to: each clip becomes its own Short, TikTok or Reel. Twitch's API doesn't let apps delete a clip, so that stays on Twitch.</p></details>
+      <details class="card"><summary>Can I repost my Twitch clips?</summary><p>Yes, with Pro. On your Twitch page, pick a clip (its button, a long press, or its page): it opens in New post as your video, in portrait. Give it a title and a description, tick your YouTube, TikTok and Instagram accounts, and it's posted as a Short, TikTok or Reel. Twitch's API doesn't let apps delete a clip, so that stays on Twitch.</p></details>
       <details class="card"><summary>Does OneView see my passwords or sell my data?</summary><p>No. You sign in on Google, TikTok, Meta or Twitch's own pages, and OneView never sees your password. Your tokens, stats and goals stay on your phone, nothing is sold or shared, and videos you publish go straight from your phone to the platform.</p></details>
       <details class="card"><summary>Can I manage several channels or clients?</summary><p>Yes. Group accounts into workspaces, for example your own channels and each client, and switch from the Home screen. Pro removes the limits on accounts and workspaces.</p></details>
       <details class="card"><summary>Can I see how much I earn on YouTube?</summary><p>Yes. Connect your YouTube channel and tap the $ button above the chart: your estimated revenue for the period, its chart, and on your channel's page the RPM and CPM. Each video's page shows its own revenue. Twitch and TikTok don't share revenue with apps: OneView estimates it (see below) and adds it to your total, marked as estimated. Instagram has none.</p></details>
