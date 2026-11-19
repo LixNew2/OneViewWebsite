@@ -1,6 +1,6 @@
 # OneView
 
-> OneView is a mobile app (iPhone and Android) that brings the stats of a creator's YouTube, TikTok and Instagram accounts into one place, and publishes one video to all three at once. Free plan; OneView Pro costs €4.99 a month or €39.99 a year, with the first 7 days free for eligible new subscribers.
+> OneView is a mobile app (iPhone and Android) that brings the stats of a creator's YouTube, TikTok and Instagram accounts into one place, and publishes one video to all three at once. Free plan; OneView Pro costs $4.99 a month, $49.99 a year or $79.99 once for life, with the first 7 days free for eligible new subscribers.
 
 ## TL;DR
 
@@ -16,8 +16,8 @@
 
 ## Plans
 
-- Free (€0): 1 workspace; 1 YouTube, 1 TikTok and 1 Instagram account; combined stats for the last hour, 24 hours and 7 days; a page per account; YouTube revenue chart; weekly and monthly reports; milestone notifications.
-- Pro (€4.99/month or €39.99/year): everything in Free, plus publishing to all platforms, YouTube video editing and deletion, unlimited accounts and workspaces, 30-day and all-time stats, unlimited goals, insights, detailed analytics (including YouTube RPM and CPM), comparisons, new post tracking, comments, CSV export and widgets (views, followers or revenue). Bought in the app through the App Store or Google Play; cancel in the store's account settings.
+- Free ($0): 1 workspace; 1 YouTube, 1 TikTok and 1 Instagram account; combined stats for the last hour, 24 hours and 7 days; a page per account; YouTube revenue chart; weekly and monthly reports; milestone notifications.
+- Pro ($4.99/month, $49.99/year or $79.99 once for life): everything in Free, plus publishing to all platforms, YouTube video editing and deletion, unlimited accounts and workspaces, 30-day and all-time stats, unlimited goals, insights, detailed analytics (including YouTube RPM and CPM), comparisons, new post tracking, comments, CSV export and widgets (views, followers or revenue). Bought in the app through the App Store or Google Play; cancel in the store's account settings.
 
 ## Pages
 
