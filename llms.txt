@@ -5,7 +5,7 @@
 ## TL;DR
 
 - What: one app for the views, likes, comments, followers, revenue and lives of YouTube, TikTok, Instagram and Twitch accounts.
-- Twitch: followers, subs by tier and gifted subs, Bits and top cheerers, clips and their views (Twitch has no view total: OneView counts clip views, never VOD views), Hype Train, Twitch goals, live status with viewers.
+- Twitch: followers, subs, Bits, clips and their views (Twitch has no view total: OneView counts clip views, never VOD views), estimated revenue, live status with viewers. Pro: subs by tier and gifted subs, top cheerers, Hype Train and Twitch goals.
 - Live: a red LIVE badge with viewers and duration on Twitch and YouTube (TikTok's and Instagram's APIs don't share lives). Pro: read and answer the live chat in the app, and on Twitch the Hype Train and sub goal live.
 - Publishing: post one video to YouTube, TikTok and Instagram at once, with per-platform options (visibility, schedule, playlist, who can watch, TikTok inbox draft, Reel or Story) and a thumbnail picked from the video or the gallery.
 - Charts: views, followers (gains in green, losses in red) or revenue, for all accounts together or each one. Twitch also has subs and Bits charts.
