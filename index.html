@@ -5,7 +5,7 @@
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="google-site-verification" content="USTtw_UrFGzJyBQdflQ5fo7bqUqpNBmUgZIKLozCaYo" />
 <title>OneView: YouTube, TikTok, Instagram and Twitch stats in one app</title>
-<meta name="description" content="Track your YouTube, TikTok, Instagram and Twitch views, followers, revenue and lives in one app, and publish a video to all your accounts at once. Free on iPhone and Android.">
+<meta name="description" content="All your YouTube, TikTok, Instagram and Twitch stats in one app. Publish one video everywhere, answer comments, compare platforms. Free on iPhone and Android.">
 <link rel="canonical" href="https://getoneviewapp.com/">
 <meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
 <meta name="author" content="PolytoneLabs">
@@ -13,7 +13,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="OneView">
 <meta property="og:title" content="OneView: YouTube, TikTok, Instagram and Twitch stats in one app">
-<meta property="og:description" content="Track your YouTube, TikTok, Instagram and Twitch views, followers, revenue and lives in one app, and publish a video to all your accounts at once. Free on iPhone and Android.">
+<meta property="og:description" content="All your YouTube, TikTok, Instagram and Twitch stats in one app. Publish one video everywhere, answer comments, compare platforms. Free on iPhone and Android.">
 <meta property="og:url" content="https://getoneviewapp.com/">
 <meta property="og:image" content="https://getoneviewapp.com/og.png">
 <meta property="og:image:width" content="1200">
@@ -22,7 +22,7 @@
 <meta property="og:locale" content="en_US">
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="OneView: YouTube, TikTok, Instagram and Twitch stats in one app">
-<meta name="twitter:description" content="Track your YouTube, TikTok, Instagram and Twitch views, followers, revenue and lives in one app, and publish a video to all your accounts at once. Free on iPhone and Android.">
+<meta name="twitter:description" content="All your YouTube, TikTok, Instagram and Twitch stats in one app. Publish one video everywhere, answer comments, compare platforms. Free on iPhone and Android.">
 <meta name="twitter:image" content="https://getoneviewapp.com/og.png">
 <link rel="alternate" type="text/plain" title="OneView for AI assistants" href="https://getoneviewapp.com/llms.txt">
 <script type="application/ld+json">
@@ -76,13 +76,22 @@
    "@type": "MobileApplication",
    "@id": "https://getoneviewapp.com/#app",
    "name": "OneView",
-   "description": "Track your YouTube, TikTok, Instagram and Twitch views, followers, revenue and lives in one app, and publish a video to all your accounts at once. Free on iPhone and Android.",
+   "description": "All your YouTube, TikTok, Instagram and Twitch stats in one app: views, followers, revenue and lives on one chart, one video published to every account at once, every comment in one inbox, the same video compared across platforms, moments to clip from your YouTube videos, a media kit for brands and Home Screen widgets. Free on iPhone and Android.",
    "url": "https://getoneviewapp.com/",
    "image": "https://getoneviewapp.com/og.png",
    "screenshot": [
     "https://getoneviewapp.com/img/screen-home.webp",
     "https://getoneviewapp.com/img/screen-account.webp",
-    "https://getoneviewapp.com/img/screen-revenue.webp"
+    "https://getoneviewapp.com/img/screen-revenue.webp",
+    "https://getoneviewapp.com/img/shot-01.webp",
+    "https://getoneviewapp.com/img/shot-03.webp",
+    "https://getoneviewapp.com/img/shot-18.webp",
+    "https://getoneviewapp.com/img/shot-19.webp",
+    "https://getoneviewapp.com/img/shot-20.webp",
+    "https://getoneviewapp.com/img/shot-22.webp",
+    "https://getoneviewapp.com/img/shot-07.webp",
+    "https://getoneviewapp.com/img/shot-10.webp",
+    "https://getoneviewapp.com/img/shot-21.webp"
    ],
    "operatingSystem": "iOS, Android",
    "applicationCategory": "BusinessApplication",
@@ -112,7 +121,10 @@
     "Free media kit made on your phone",
     "Free weekly and monthly shareable reports",
     "Home Screen widgets",
-    "Workspaces for several channels or clients"
+    "Workspaces for several channels or clients",
+    "Latest video Home Screen widget, with an automatic most-viewed mode",
+    "Analyses per platform or per account",
+    "Quick replies to comments in your language"
    ],
    "offers": [
     {
@@ -142,7 +154,13 @@
    ],
    "author": {
     "@id": "https://gaelbotton.dev/#me"
-   }
+   },
+   "softwareVersion": "1.2.3",
+   "inLanguage": [
+    "en",
+    "fr",
+    "es"
+   ]
   },
   {
    "@type": "FAQPage",
@@ -246,6 +264,30 @@
     },
     {
      "@type": "Question",
+     "name": "Can I see how much I earn on YouTube?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Connect your YouTube channel and tap the $ button above the chart: your estimated revenue for the period, its chart, and on your channel's page the RPM and CPM. Each video's page shows its own revenue. Twitch and TikTok don't share revenue with apps: OneView estimates it (see below) and adds it to your total, marked as estimated. Instagram has none."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Why can I see some stats on one platform and not another?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "OneView brings four different platforms into one app, and each one shares different data with apps. Only YouTube gives its real revenue, RPM and CPM (Twitch and TikTok revenue are OneView's estimates, always marked as such); TikTok and Twitch don't let apps manage comments; Instagram doesn't give follower history; Twitch has no view total, so OneView counts your clips' views. When a platform doesn't share something, OneView never passes a guess off as a real figure."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Are reports free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The weekly and the monthly report are free for everyone: a story-ready image of your views, followers and best post, to share with your community, a brand or a client."
+     }
+    },
+    {
+     "@type": "Question",
      "name": "How do I cancel OneView Pro?",
      "acceptedAnswer": {
       "@type": "Answer",
@@ -258,6 +300,150 @@
      "acceptedAnswer": {
       "@type": "Answer",
       "text": "No. OneView is an independent app that uses the official YouTube, TikTok, Instagram and Twitch APIs."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I see the same video's views on YouTube, TikTok and Instagram side by side?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. The \"Same video, everywhere\" card puts the views of one video on every platform next to each other and shows the platform where it did best. Videos published with OneView are linked for sure; others posted within 3 days with a similar title are matched as probable, and you confirm or refuse each match. Over several videos, OneView tells you which platform gets the same video the most views."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are the moments to clip?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "For long YouTube videos (3 minutes or more), OneView reads YouTube's audience retention curve and finds the parts viewers rewind to watch again. Those are the best moments to cut into a Short, a Reel or a TikTok. OneView gives their timecodes and opens the video right at that moment; it does not download or cut the video, you cut it in your own editor. It is YouTube only, since TikToks, Reels and clips are already short."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What does \"Views into followers\" show?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "How many followers you win for every 1,000 views on each platform over the period, so you can see where your views turn into a community. Pick a platform or one account at the top of Analyses and the card shows each account instead."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does posting more often lower my views?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The posting pace card answers that from your own history: it groups your weeks by how many posts you made (1 to 2, 3 to 4, 5 to 7, 8 or more) and shows how each post did against your usual in those weeks. It needs about six weeks of posts."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What are videos that last?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Your posts of 30 days or more that still gain views every week. They are good candidates to publish again as a Short, a Reel or a TikTok, and OneView opens a new post with their title in one tap."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which Home Screen widgets does OneView have?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Three, on iPhone and Android: a stats widget (views, followers, revenue, Twitch subs or Bits for a workspace, a platform or one account, over any period), a goal widget, and a Latest video widget that shows your newest video with its views curve, likes, comments, engagement, followers won and how it compares with your usual. The Latest video widget has an automatic mode that shows the most viewed of your latest videos across all the accounts of a workspace."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I manage several YouTube channels or Instagram accounts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Connect several accounts of the same platform and group them into workspaces. Wherever OneView shows one account's figures, it names the account when a workspace has more than one of that platform, and Analyses lets you pick all the accounts of a platform or just one."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How often are my stats updated?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Every few minutes while OneView is open, and in the background as often as your phone allows (about every 15 minutes or more). YouTube's own analytics arrive about two days late; OneView fills the gap with the live view count."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I schedule posts?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, for YouTube: pick a date and time when you publish and the video stays private until then. TikTok and Instagram are published right away."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Will OneView tell me when a video takes off?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. You get a notification when a post reaches 3 times your usual views, when you pass a follower milestone, when you reach a goal and, with Pro, as soon as a new post beats your usual curve hour by hour."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I export my stats?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes, with Pro: a CSV file of your accounts, posts and day-by-day history, to open in Excel, Numbers or Google Sheets. The export uses the figures already on your phone and makes no extra request."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Which languages is OneView in?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "English, French and Spanish. The app follows your phone's language, and your quick replies to comments follow it too."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I reply to TikTok comments?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Not yet: TikTok does not let apps read or answer comments on regular creator accounts. YouTube and Instagram comments are fully supported."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Does OneView work with a personal Instagram account?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Instagram only shares stats with apps for professional accounts. Switch to a free Creator or Business account in Instagram's settings, then connect it to OneView."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "What happens if I stop OneView Pro?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Your accounts, goals and settings stay on your phone. The Pro features lock again (only your first goal stays on, longer periods and detailed analytics close) and come back as soon as you subscribe again."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Can I try OneView Pro for free?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Yes. Eligible new subscribers get the first 7 days free, and you can cancel before the end of the trial in your App Store or Google Play settings without being charged."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "Is there a limit on the free plan?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "The free plan covers 3 accounts in one workspace, 3 publications and 20 comment replies a week, one goal, one stats widget, and the first result of every Analyses card with your own figures. Pro removes every limit."
+     }
+    },
+    {
+     "@type": "Question",
+     "name": "How do I contact OneView?",
+     "acceptedAnswer": {
+      "@type": "Answer",
+      "text": "Write to polytonelabs2642@gmail.com. Questions about subscriptions and refunds go through the App Store or Google Play."
      }
     }
    ]
@@ -352,11 +538,16 @@ h2 span{color:var(--blue)}
 .pub .done{color:var(--green);font-size:12px;font-weight:700}
 
 /* Screens gallery */
+.tour-shot{display:block;padding:0;border:0;background:none;cursor:zoom-in;border-radius:26px}
+.tour-shot:focus-visible{outline:2px solid var(--blue);outline-offset:4px}
+.lightbox{position:fixed;inset:0;z-index:100;display:none;align-items:center;justify-content:center;padding:24px;background:rgba(0,0,0,.86);backdrop-filter:blur(8px);-webkit-backdrop-filter:blur(8px);cursor:zoom-out}
+.lightbox.on{display:flex}
+.lightbox img{max-height:92vh;max-width:92vw;width:auto;height:auto;border-radius:28px;box-shadow:0 40px 80px rgba(0,0,0,.7);cursor:default}
 .tour{display:flex;flex-direction:column;gap:56px;margin-top:40px}
 .tour-row{display:grid;grid-template-columns:300px 1fr;gap:56px;align-items:center}
 .tour-row:nth-child(even){grid-template-columns:1fr 300px}
-.tour-row:nth-child(even) img{order:2}
-.tour-row img{width:100%;height:auto;border-radius:26px;border:1px solid var(--line);box-shadow:0 30px 60px -30px rgba(0,0,0,.8)}
+.tour-row:nth-child(even) .tour-shot{order:2}
+.tour-row .tour-shot img{width:100%;height:auto;border-radius:26px;border:1px solid var(--line);box-shadow:0 30px 60px -30px rgba(0,0,0,.8)}
 .tour-tag{margin:0 0 10px;color:var(--blue);font-weight:700;font-size:13px;letter-spacing:.6px;text-transform:uppercase}
 .tour-text h3{margin:0 0 14px;font-size:30px;line-height:1.15;letter-spacing:-.6px}
 .tour-text h3 span{color:var(--blue)}
@@ -364,7 +555,7 @@ h2 span{color:var(--blue)}
 .tour-text ul{margin:0;padding:0;list-style:none;display:flex;flex-direction:column;gap:8px}
 .tour-text li{display:flex;gap:10px;font-size:14.5px;line-height:1.45;color:var(--text)}
 .tour-text li::before{content:"";flex:none;width:7px;height:7px;margin-top:7px;border-radius:50%;background:var(--blue)}
-@media (max-width:760px){.tour-row,.tour-row:nth-child(even){grid-template-columns:1fr;gap:24px}.tour-row:nth-child(even) img{order:0}.tour-row img{max-width:300px;margin:0 auto}.tour-text h3{font-size:25px}}
+@media (max-width:760px){.tour-row,.tour-row:nth-child(even){grid-template-columns:1fr;gap:24px}.tour-row:nth-child(even) .tour-shot{order:0}.tour-shot{max-width:300px;margin:0 auto}.tour-text h3{font-size:25px}}
 .gallery{display:flex;gap:16px;overflow-x:auto;scroll-snap-type:x mandatory;padding:28px 20px 12px;margin:0 -20px;scrollbar-width:none}
 .gallery::-webkit-scrollbar{display:none}
 .gallery img{width:250px;height:auto;flex:none;border-radius:22px;scroll-snap-align:center;border:1px solid var(--line)}
@@ -610,91 +801,95 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
 
   <section id="screens">
     <h2>Every feature, <span>up close.</span></h2>
-    <p class="muted">What each screen does, what is free and what comes with Pro.</p>
+    <p class="muted">What each screen does, one feature at a time. Tap a screenshot to see it bigger.</p>
     <div class="tour">
       <article class="tour-row">
-        <img src="img/shot-01.webp" alt="All your stats, one place" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Home</p><h3>All your stats, <span>one place</span></h3><p>Your views, followers and revenue from YouTube, TikTok, Instagram and Twitch on one chart. Switch the metric with one tap, slide your finger along the curve for the exact figure of any point, and see each account below with its own trend.</p><ul><li>Last hour, 24 hours and 7 days free; 30 days and all time with Pro</li><li>Followers won in green, lost in red</li><li>A red LIVE ring when you stream</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: All your stats, one place"><img src="img/shot-01.webp" alt="All your stats, one place: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Home</p><h3>All your stats, <span>one place</span></h3><p>Your views, followers and revenue from YouTube, TikTok, Instagram and Twitch on one chart. Switch the metric with one tap, slide your finger along the curve for the exact figure of any point, and see each account below with its own trend.</p><ul><li>One chart for every platform, or one account at a time</li><li>Followers won in green, lost in red</li><li>A red LIVE ring when you stream</li><li>From the last hour to all time</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-02.webp" alt="Every account, up close" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Accounts</p><h3>Every account, <span>up close</span></h3><p>A page per account in its platform colors: its views, likes, comments and followers, its own charts, and every video, Short, TikTok, Reel and clip, loaded as you scroll.</p><ul><li>Revenue, RPM and CPM for YouTube channels (Pro)</li><li>Detailed analytics one tap away (Pro)</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Every account, up close"><img src="img/shot-02.webp" alt="Every account, up close: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Accounts</p><h3>Every account, <span>up close</span></h3><p>A page per account in its platform colors: its views, likes, comments and followers, its own charts, and every video, Short, TikTok, Reel and clip, loaded as you scroll.</p><ul><li>Views, followers and revenue charts per account</li><li>Every post, newest first, with its own page</li><li>Detailed analytics one tap away</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-03.webp" alt="Publish everywhere at once" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Publish</p><h3>Publish everywhere <span>at once</span></h3><p>Pick a video, write the title, description and hashtags once, tick your YouTube, TikTok and Instagram accounts and set each platform's options. Uploads keep going while you use the app, and you can follow, cancel or retry each one.</p><ul><li>Free: 3 publications a week (one video to 3 accounts counts once)</li><li>A publication cancelled everywhere is given back</li><li>Pro: unlimited publishing and YouTube scheduling</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Publish everywhere at once"><img src="img/shot-03.webp" alt="Publish everywhere at once: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Publish</p><h3>Publish everywhere <span>at once</span></h3><p>Pick a video, write the title, description and hashtags once, tick your YouTube, TikTok and Instagram accounts and set each platform's options. Uploads keep going while you use the app.</p><ul><li>Options and a thumbnail for each platform</li><li>Schedule YouTube videos</li><li>Follow, cancel or retry every upload</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-18.webp" alt="Same video, every platform" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Same video, <span>every platform</span></h3><p>The same video side by side on YouTube, TikTok and Instagram, with the platform where it did best. Videos published with OneView are linked for sure; the others are matched by title and date, and you confirm them.</p><ul><li>Free: your latest video</li><li>Pro: every video, and which platform wins on average</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Same video, every platform"><img src="img/shot-18.webp" alt="Same video, every platform: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Same video, <span>every platform</span></h3><p>The same video side by side on YouTube, TikTok and Instagram, with the platform where it did best. Videos published with OneView are linked for sure; the others are matched by title and date, and you confirm them.</p><ul><li>Views of one video on every platform, side by side</li><li>Which platform your videos do best on, video after video</li><li>A full list of your videos, loaded as you scroll</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-19.webp" alt="Views into followers" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Views into <span>followers</span></h3><p>How many followers each platform gives you for every 1,000 views: where your views turn into a community. Pick a platform or one account at the top, and the card follows.</p><ul><li>Free: the verdict with your own figures</li><li>Pro: the detail for every platform and account</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Views into followers"><img src="img/shot-19.webp" alt="Views into followers: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Views into <span>followers</span></h3><p>How many followers each platform gives you for every 1,000 views: where your views turn into a community. Pick a platform or one account at the top, and the card follows.</p><ul><li>Followers per 1,000 views, per platform or per account</li><li>Which platform turns views into followers best</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-20.webp" alt="Moments to clip" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">YouTube only</p><h3>Moments <span>to clip</span></h3><p>In your long YouTube videos, OneView reads the retention curve and finds the parts viewers rewind to watch again: the best ones to cut into a Short, a Reel or a TikTok.</p><ul><li>Free: how many moments each video has</li><li>Pro: their timecodes, open the video at that moment or copy them</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Moments to clip"><img src="img/shot-20.webp" alt="Moments to clip: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">YouTube only</p><h3>Moments <span>to clip</span></h3><p>In your long YouTube videos, OneView reads the retention curve and finds the parts viewers rewind to watch again: the best ones to cut into a Short, a Reel or a TikTok.</p><ul><li>The moments viewers watch again, with their timecodes</li><li>Open the video right at that moment, or copy the timecodes</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-05.webp" alt="Best time to post" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Best time <span>to post</span></h3><p>A day-by-hour map of when your posts perform best, your top and flop content by views or engagement, and the words and hashtags behind your best posts.</p><ul><li>Free: your best slot, your best post and every word that works</li><li>Pro: the whole map and the full ranking</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Your best time to post"><img src="img/shot-22.webp" alt="Your best time to post: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Your best time <span>to post</span></h3><p>A day-by-hour map of when your posts perform best, each post compared with its own account's usual, so a small account and a big one count the same.</p><ul><li>The best day and time slot in one line</li><li>The whole week, hour by hour</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-06.webp" alt="Compare any period" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Compare <span>any period</span></h3><p>This hour, day, week, month or year against the one before, with a percentage for views, likes, comments, followers and revenue.</p><ul><li>Up to 7 days free; a month and a year with Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Words that work"><img src="img/shot-05.webp" alt="Words that work: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Words that <span>work</span></h3><p>The words and hashtags behind your best posts, your top and flop content by views or by engagement, and the engagement rate of each platform.</p><ul><li>Words and hashtags ranked by the views they bring</li><li>Top and flop posts, by views or engagement</li><li>Engagement rate per platform or per account</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-08.webp" alt="Know when a post takes off" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">New posts</p><h3>Know when a post <span>takes off</span></h3><p>Follow your newest post hour by hour for 48 hours against your usual curve. With Pro, a notification as soon as a post beats it.</p><ul><li>Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Compare any period"><img src="img/shot-06.webp" alt="Compare any period: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Analyses</p><h3>Compare <span>any period</span></h3><p>This hour, day, week, month or year against the one before, with a percentage for views, likes, comments, followers and revenue.</p><ul><li>Every figure with its change</li><li>From the last hour to a full year</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-07.webp" alt="All your comments, one inbox" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Comments</p><h3>All your comments, <span>one inbox</span></h3><p>YouTube and Instagram comments in one place, newest first, with Unread and Unanswered. Reply right under the comment.</p><ul><li>Free: 20 replies a week</li><li>Pro: unlimited replies, quick replies and the bot filter</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Know when a post takes off"><img src="img/shot-08.webp" alt="Know when a post takes off: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">New posts</p><h3>Know when a post <span>takes off</span></h3><p>Follow your newest post hour by hour for 48 hours against your usual curve, and get a notification as soon as one beats it.</p><ul><li>Hour-by-hour views of your new post</li><li>Your usual curve to compare with</li><li>A notification when a post takes off</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-04.webp" alt="Goals for every account" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Goals</p><h3>Goals for <span>every account</span></h3><p>50K followers on TikTok, 10M views on YouTube: see your progress and the date you will reach each goal at your current pace, and get notified when you do.</p><ul><li>Free: 1 goal</li><li>Pro: unlimited goals and the goal widget</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: All your comments, one inbox"><img src="img/shot-07.webp" alt="All your comments, one inbox: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Comments</p><h3>All your comments, <span>one inbox</span></h3><p>YouTube and Instagram comments in one place, newest first, with Unread and Unanswered. Reply right under the comment, save quick replies and spot bots.</p><ul><li>Unread and Unanswered filters</li><li>Quick replies in your language</li><li>Bot detection with a probability score</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-21.webp" alt="Your media kit, for brands" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Profile</p><h3>Your media kit, <span>for brands</span></h3><p>Your audience on every platform on one image: total audience, monthly views, engagement, followers and average views per platform, your best posts. Made on your phone and never put online.</p><ul><li>Free, with a "Stats from OneView" line</li><li>Pro: your contact and rates, without the line</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Goals for every account"><img src="img/shot-04.webp" alt="Goals for every account: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Goals</p><h3>Goals for <span>every account</span></h3><p>50K followers on TikTok, 10M views on YouTube: see your progress and the date you will reach each goal at your current pace, and get notified when you do.</p><ul><li>Followers, views, Twitch subs or Bits</li><li>The date you will reach it</li><li>A notification when it is reached</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-09.webp" alt="Share your week or month" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Home</p><h3>Share your <span>week or month</span></h3><p>Your week or your month as a story-ready image, one tap from Home, for Instagram, WhatsApp or a client.</p><ul><li>Free for everyone</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Your media kit, for brands"><img src="img/shot-21.webp" alt="Your media kit, for brands: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Profile</p><h3>Your media kit, <span>for brands</span></h3><p>Your audience on every platform on one image: total audience, monthly views, engagement, followers and average views per platform, your best posts, your contact and rates. Made on your phone and never put online.</p><ul><li>One image to send to a brand</li><li>Your contact and rates on it</li><li>Nothing put online, no public profile</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-10.webp" alt="Your stats on your Home Screen" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Widgets</p><h3>Your stats on your <span>Home Screen</span></h3><p>Views, followers, revenue, Twitch subs or Bits, for a workspace, a platform or one account, and a goal widget, on iPhone and Android.</p><ul><li>Free: one stats widget for all your accounts (views or followers, up to 7 days)</li><li>Pro: every widget, including the latest video with its stats</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Share your week or month"><img src="img/shot-09.webp" alt="Share your week or month: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Home</p><h3>Share your <span>week or month</span></h3><p>Your week or your month as a story-ready image, one tap from Home, for Instagram, WhatsApp or a client.</p><ul><li>A story-ready image in one tap</li><li>Views, followers and your best post</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-11.webp" alt="YouTube revenue, RPM and CPM" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Revenue</p><h3>YouTube revenue, <span>RPM and CPM</span></h3><p>Your real YouTube revenue for the channel and every video, with RPM and CPM.</p><ul><li>Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Your stats on your Home Screen"><img src="img/shot-10.webp" alt="Your stats on your Home Screen: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Widgets</p><h3>Your stats on your <span>Home Screen</span></h3><p>Views, followers, revenue, Twitch subs or Bits for a workspace, a platform or one account; a goal widget; and a Latest video widget with its views curve, likes, comments, engagement and how it compares with your usual.</p><ul><li>Stats, goal and latest video widgets</li><li>On iPhone and Android</li><li>An automatic mode that shows your most viewed latest video</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-14.webp" alt="All your revenue, together" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Revenue</p><h3>All your revenue, <span>together</span></h3><p>YouTube's real revenue, plus Twitch and TikTok estimates set to your own split and rate, always marked as estimates.</p><ul><li>Free: the revenue chart over 7 days</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: YouTube revenue, RPM and CPM"><img src="img/shot-11.webp" alt="YouTube revenue, RPM and CPM: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Revenue</p><h3>YouTube revenue, <span>RPM and CPM</span></h3><p>Your real YouTube revenue for the channel and every video, with RPM and CPM.</p><ul><li>Revenue per channel and per video</li><li>RPM and CPM</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-12.webp" alt="See when you're live" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Live</p><h3>See when <span>you're live</span></h3><p>A red LIVE badge with your viewers and likes as soon as you stream on YouTube or Twitch.</p><ul><li>Free</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: All your revenue, together"><img src="img/shot-14.webp" alt="All your revenue, together: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Revenue</p><h3>All your revenue, <span>together</span></h3><p>YouTube's real revenue, plus Twitch and TikTok estimates set to your own split and rate, always marked as estimates.</p><ul><li>YouTube, Twitch and TikTok in one total</li><li>Your own Twitch split and TikTok rate</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-13.webp" alt="Your live chat, in the app" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Live</p><h3>Your live chat, <span>in the app</span></h3><p>Read and answer your YouTube and Twitch live chat without leaving OneView.</p><ul><li>Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: See when you're live"><img src="img/shot-12.webp" alt="See when you're live: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Live</p><h3>See when <span>you're live</span></h3><p>A red LIVE badge with your viewers and likes as soon as you stream on YouTube or Twitch.</p><ul><li>Live viewers and likes</li><li>How long you have been live</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-15.webp" alt="Twitch, live and in full" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Twitch</p><h3>Twitch, <span>live and in full</span></h3><p>Viewers, the Hype Train and your sub goal while you stream; followers, subs, Bits and clips the rest of the time.</p><ul><li>Subs by tier, gifted subs and goals with Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Your live chat, in the app"><img src="img/shot-13.webp" alt="Your live chat, in the app: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Live</p><h3>Your live chat, <span>in the app</span></h3><p>Read and answer your YouTube and Twitch live chat without leaving OneView.</p><ul><li>Read and answer your chat</li><li>YouTube and Twitch</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-16.webp" alt="Subs, Bits and cheerers" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Twitch</p><h3>Subs, Bits <span>and cheerers</span></h3><p>Twitch analytics for any period: subs by tier, gifted subs, Bits, top cheerers, Hype Train and goals.</p><ul><li>Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Twitch, live and in full"><img src="img/shot-15.webp" alt="Twitch, live and in full: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Twitch</p><h3>Twitch, <span>live and in full</span></h3><p>Viewers, the Hype Train and your sub goal while you stream; followers, subs, Bits and clips the rest of the time.</p><ul><li>Hype Train and sub goal, live</li><li>Followers, subs, Bits and clips</li></ul></div>
       </article>
       <article class="tour-row">
-        <img src="img/shot-17.webp" alt="Repost your Twitch clips" width="540" height="1174" loading="lazy">
-        <div class="tour-text"><p class="tour-tag">Twitch</p><h3>Repost your <span>Twitch clips</span></h3><p>Pick a clip and repost it as a Short, a TikTok or a Reel, in portrait, with its own title and description.</p><ul><li>Pro</li></ul></div>
+        <button class="tour-shot" type="button" aria-label="Enlarge: Subs, Bits and cheerers"><img src="img/shot-16.webp" alt="Subs, Bits and cheerers: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Twitch</p><h3>Subs, Bits <span>and cheerers</span></h3><p>Twitch analytics for any period: subs by tier, gifted subs, Bits, top cheerers, Hype Train and goals.</p><ul><li>Subs by tier and gifted subs</li><li>Top cheerers, Hype Train and goals</li></ul></div>
+      </article>
+      <article class="tour-row">
+        <button class="tour-shot" type="button" aria-label="Enlarge: Repost your Twitch clips"><img src="img/shot-17.webp" alt="Repost your Twitch clips: OneView screenshot" width="540" height="1174" loading="lazy"></button>
+        <div class="tour-text"><p class="tour-tag">Twitch</p><h3>Repost your <span>Twitch clips</span></h3><p>Pick a clip and repost it as a Short, a TikTok or a Reel, in portrait, with its own title and description.</p><ul><li>One clip to Shorts, TikTok and Reels</li><li>In portrait, with its own title</li></ul></div>
       </article>
     </div>
   </section>
@@ -771,6 +966,24 @@ footer.wrap{margin-top:32px;padding-bottom:40px}
       <details class="card"><summary>Are reports free?</summary><p>Yes. The weekly and the monthly report are free for everyone: a story-ready image of your views, followers and best post, to share with your community, a brand or a client.</p></details>
       <details class="card"><summary>How do I cancel OneView Pro?</summary><p>Pro is a subscription bought in the app through the App Store or Google Play. Cancel at any time in your App Store or Google Play account settings, at least 24 hours before the renewal.</p></details>
       <details class="card"><summary>Is OneView affiliated with YouTube, TikTok or Instagram?</summary><p>No. OneView is an independent app that uses the official YouTube, TikTok, Instagram and Twitch APIs.</p></details>
+      <details class="card"><summary>Can I see the same video's views on YouTube, TikTok and Instagram side by side?</summary><p>Yes. The "Same video, everywhere" card puts the views of one video on every platform next to each other and shows the platform where it did best. Videos published with OneView are linked for sure; others posted within 3 days with a similar title are matched as probable, and you confirm or refuse each match. Over several videos, OneView tells you which platform gets the same video the most views.</p></details>
+      <details class="card"><summary>What are the moments to clip?</summary><p>For long YouTube videos (3 minutes or more), OneView reads YouTube's audience retention curve and finds the parts viewers rewind to watch again. Those are the best moments to cut into a Short, a Reel or a TikTok. OneView gives their timecodes and opens the video right at that moment; it does not download or cut the video, you cut it in your own editor. It is YouTube only, since TikToks, Reels and clips are already short.</p></details>
+      <details class="card"><summary>What does "Views into followers" show?</summary><p>How many followers you win for every 1,000 views on each platform over the period, so you can see where your views turn into a community. Pick a platform or one account at the top of Analyses and the card shows each account instead.</p></details>
+      <details class="card"><summary>Does posting more often lower my views?</summary><p>The posting pace card answers that from your own history: it groups your weeks by how many posts you made (1 to 2, 3 to 4, 5 to 7, 8 or more) and shows how each post did against your usual in those weeks. It needs about six weeks of posts.</p></details>
+      <details class="card"><summary>What are videos that last?</summary><p>Your posts of 30 days or more that still gain views every week. They are good candidates to publish again as a Short, a Reel or a TikTok, and OneView opens a new post with their title in one tap.</p></details>
+      <details class="card"><summary>Which Home Screen widgets does OneView have?</summary><p>Three, on iPhone and Android: a stats widget (views, followers, revenue, Twitch subs or Bits for a workspace, a platform or one account, over any period), a goal widget, and a Latest video widget that shows your newest video with its views curve, likes, comments, engagement, followers won and how it compares with your usual. The Latest video widget has an automatic mode that shows the most viewed of your latest videos across all the accounts of a workspace.</p></details>
+      <details class="card"><summary>Can I manage several YouTube channels or Instagram accounts?</summary><p>Yes. Connect several accounts of the same platform and group them into workspaces. Wherever OneView shows one account's figures, it names the account when a workspace has more than one of that platform, and Analyses lets you pick all the accounts of a platform or just one.</p></details>
+      <details class="card"><summary>How often are my stats updated?</summary><p>Every few minutes while OneView is open, and in the background as often as your phone allows (about every 15 minutes or more). YouTube's own analytics arrive about two days late; OneView fills the gap with the live view count.</p></details>
+      <details class="card"><summary>Can I schedule posts?</summary><p>Yes, for YouTube: pick a date and time when you publish and the video stays private until then. TikTok and Instagram are published right away.</p></details>
+      <details class="card"><summary>Will OneView tell me when a video takes off?</summary><p>Yes. You get a notification when a post reaches 3 times your usual views, when you pass a follower milestone, when you reach a goal and, with Pro, as soon as a new post beats your usual curve hour by hour.</p></details>
+      <details class="card"><summary>Can I export my stats?</summary><p>Yes, with Pro: a CSV file of your accounts, posts and day-by-day history, to open in Excel, Numbers or Google Sheets. The export uses the figures already on your phone and makes no extra request.</p></details>
+      <details class="card"><summary>Which languages is OneView in?</summary><p>English, French and Spanish. The app follows your phone's language, and your quick replies to comments follow it too.</p></details>
+      <details class="card"><summary>Can I reply to TikTok comments?</summary><p>Not yet: TikTok does not let apps read or answer comments on regular creator accounts. YouTube and Instagram comments are fully supported.</p></details>
+      <details class="card"><summary>Does OneView work with a personal Instagram account?</summary><p>Instagram only shares stats with apps for professional accounts. Switch to a free Creator or Business account in Instagram's settings, then connect it to OneView.</p></details>
+      <details class="card"><summary>What happens if I stop OneView Pro?</summary><p>Your accounts, goals and settings stay on your phone. The Pro features lock again (only your first goal stays on, longer periods and detailed analytics close) and come back as soon as you subscribe again.</p></details>
+      <details class="card"><summary>Can I try OneView Pro for free?</summary><p>Yes. Eligible new subscribers get the first 7 days free, and you can cancel before the end of the trial in your App Store or Google Play settings without being charged.</p></details>
+      <details class="card"><summary>Is there a limit on the free plan?</summary><p>The free plan covers 3 accounts in one workspace, 3 publications and 20 comment replies a week, one goal, one stats widget, and the first result of every Analyses card with your own figures. Pro removes every limit.</p></details>
+      <details class="card"><summary>How do I contact OneView?</summary><p>Write to polytonelabs2642@gmail.com. Questions about subscriptions and refunds go through the App Store or Google Play.</p></details>
     </div>
   </section>
 
@@ -836,6 +1049,26 @@ if (missing.size)
     p.textContent = `Coming soon to ${[...missing].map((k) => STORE_NAMES[k]).join(' and ')}.`;
     p.hidden = false;
   });
+</script>
+<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Screenshot"><img alt=""></div>
+<script>
+// Screenshots of the feature tour: a tap opens it big in the middle of the screen; a tap beside it (or Escape) closes it.
+(function () {
+  var box = document.getElementById('lightbox');
+  var big = box.querySelector('img');
+  var close = function () { box.classList.remove('on'); document.body.style.overflow = ''; };
+  document.querySelectorAll('.tour-shot').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var img = b.querySelector('img');
+      big.src = img.currentSrc || img.src;
+      big.alt = img.alt;
+      box.classList.add('on');
+      document.body.style.overflow = 'hidden';
+    });
+  });
+  box.addEventListener('click', function (e) { if (e.target !== big) close(); });
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape') close(); });
+})();
 </script>
 </body>
 </html>

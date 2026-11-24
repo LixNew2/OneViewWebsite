@@ -2,13 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:image="http://www.google.com/schemas/sitemap-image/1.1">
   <url>
     <loc>https://getoneviewapp.com/</loc>
-    <lastmod>2026-11-20</lastmod>
+    <lastmod>2026-11-24</lastmod>
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
     <image:image><image:loc>https://getoneviewapp.com/og.png</image:loc></image:image>
     <image:image><image:loc>https://getoneviewapp.com/img/screen-home.webp</image:loc></image:image>
     <image:image><image:loc>https://getoneviewapp.com/img/screen-account.webp</image:loc></image:image>
     <image:image><image:loc>https://getoneviewapp.com/img/screen-goals.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-01.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-03.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-18.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-19.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-20.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-22.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-05.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-07.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-10.webp</image:loc></image:image>
+    <image:image><image:loc>https://getoneviewapp.com/img/shot-21.webp</image:loc></image:image>
   </url>
   <url>
     <loc>https://getoneviewapp.com/privacy.html</loc>

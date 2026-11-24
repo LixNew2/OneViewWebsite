@@ -14,7 +14,8 @@
 - Analysis: one chart for every platform, goals per account with a predicted date, best time to post, top and flop content, words and hashtags that work, period comparisons, new post tracking for 48 hours.
 - Cross-platform stats: the same video side by side on YouTube, TikTok and Instagram and the platform where videos do best; followers won per 1,000 views on each platform; posting pace vs views per post; older posts still gaining views (to publish again); moments to clip in long YouTube videos, from the retention curve, with timecodes; take-off alerts against the usual curve (Pro).
 - Comments: a YouTube tab and an Instagram tab, newest to oldest, with Unread, Unanswered, quick replies and bot detection. TikTok does not give apps access to comments, and Twitch clips have none.
-- Extras: workspaces for several channels or clients, free weekly and monthly shareable reports, a free media kit made on the phone (never put online), milestone notifications, Home Screen widgets on iPhone and Android.
+- Extras: workspaces for several channels or clients (Analyses per platform or per account; the account is named whenever a workspace has two of one platform), free weekly and monthly shareable reports, a free media kit made on the phone (never put online), milestone and take-off notifications.
+- Widgets (iPhone and Android): stats (views, followers, revenue, Twitch subs or Bits), goal, and Latest video (newest video with its views curve, likes, comments, engagement, followers won and multiple of the usual; an automatic mode picks the most viewed latest video of a workspace).
 - Privacy: sign-in on Google, TikTok, Meta and Twitch's own pages; tokens and stats stay on the phone; nothing is sold; videos go straight from the phone to the platform.
 - Not affiliated with YouTube, TikTok, Instagram or Twitch; uses their official APIs.
 
@@ -22,6 +23,17 @@
 
 - Free ($0): 1 workspace; 3 accounts of your choice among YouTube, TikTok, Instagram and Twitch; combined stats for the last hour, 24 hours and 7 days; a page per account (Twitch subs, Bits, clips); live status with viewers; revenue chart (YouTube plus Twitch and TikTok estimates); 3 publications a week to all accounts at once; 20 comment replies a week; 1 goal; one stats widget (all accounts, views or followers); the user's own figures in every Analyses card (first result of each); weekly and monthly reports; the media kit; milestone notifications.
 - Pro ($3.99/month, $24.99/year or $49.99 once for life): everything in Free without limits: unlimited publishing and scheduling, unlimited replies with quick replies and the bot filter, every Analyses card in full (same video everywhere, followers per view, posting pace, videos that last, moments to clip with timecodes, the whole best-time map, full top and flop), take-off alerts, detailed analytics (including YouTube RPM and CPM), 30-day, yearly and all-time stats, unlimited goals, every widget, Twitch clip reposts, live chat, YouTube video editing and deletion, a custom media kit, unlimited accounts and workspaces, CSV export. Bought in the app through the App Store or Google Play; cancel in the store's account settings.
+
+## Frequently asked
+
+- Is OneView free? Yes: 3 accounts in one workspace, 3 publications and 20 comment replies a week, 1 goal, 1 stats widget, the first result of every Analyses card with your own figures, reports and the media kit. Pro removes every limit (7-day free trial for eligible new subscribers).
+- Does OneView sell or upload my data? No. Sign-in happens on each platform's own page, stats stay on the phone, videos go straight from the phone to the platform, and the media kit is an image made on the phone.
+- Can it answer TikTok comments? No: TikTok's API does not give apps access to comments of regular creator accounts. YouTube and Instagram comments are supported.
+- Does it need an Instagram professional account? Yes, Instagram only shares stats with apps for Creator or Business accounts.
+- Moments to clip: YouTube only, long videos (3 minutes or more); timecodes from the retention curve, nothing is downloaded.
+- How fresh are the stats? Every few minutes while the app is open, in the background as the phone allows; YouTube Analytics itself lags about two days.
+- Languages: English, French and Spanish.
+- Support: polytonelabs2642@gmail.com.
 
 ## Pages
 
